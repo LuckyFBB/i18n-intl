@@ -1,0 +1,56 @@
+{
+    "name": "dt-intl",
+    "version": "1.0.0",
+    "description": "I18N tools for universal javascript apps, easy use & better api;",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/**/*"
+    ],
+    "keywords": [
+        "I18N",
+        "intl",
+        "react",
+        "G11N",
+        "L10N"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LuckyFBB/dt-intl.git"
+    },
+    "bugs": {
+        "url": "https://github.com/LuckyFBB/dt-intl/issues"
+    },
+    "config": {
+        "commitizen": {
+            "path": "node_modules/git-cz"
+        }
+    },
+    "lint-staged": {
+        "*.{js,ts,json}": [
+            "prettier --write ./"
+        ]
+    },
+    "scripts": {
+        "lint": "tslint src",
+        "autofix": "tslint src --fix",
+        "dev": "tsc -w",
+        "build": "tsc",
+        "prettier": "prettier --write ./",
+        "release": "standard-version"
+    },
+    "dependencies": {
+        "intl-messageformat": "^2.2.0",
+        "lodash.get": "^4.4.2"
+    },
+    "devDependencies": {
+        "git-cz": "^4.9.0",
+        "husky": "^9.1.7",
+        "lint-staged": "^15.3.0",
+        "prettier": "^3.4.2",
+        "standard-version": "^9.5.0",
+        "tslint": "^5.5.0",
+        "typescript": "^5.7.3"
+    },
+    "license": "MIT"
+}
