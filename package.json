@@ -40,7 +40,7 @@
         "release": "standard-version"
     },
     "dependencies": {
-        "intl-messageformat": "^2.2.0",
+        "intl-messageformat": "~10.7.15",
         "lodash.get": "^4.4.2"
     },
     "devDependencies": {

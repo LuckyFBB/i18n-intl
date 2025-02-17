@@ -91,7 +91,7 @@ class I18N {
                 return msg;
             } catch (err) {
                 console.warn(
-                    `kiwi-intl format message failed for key='${str}'`,
+                    `dt-intl format message failed for key='${str}'`,
                     err,
                 );
                 return '';
