@@ -25,13 +25,13 @@ export interface I18NAPI {
      * @param template: 对应语言的模板
      * @param args: 模板的参数
      */
-    template?(str: string, args: object): string;
+    template?(str: string, args: object): string | string[];
     /**
      * 获取对应语言的值
      * @param name: 对应语言的模板的 Key
      * @param options: 模板的参数
      */
-    get(name: string, args?: object): string;
+    get(name: string, args?: object): string | string[];
 }
 
 class I18N {
