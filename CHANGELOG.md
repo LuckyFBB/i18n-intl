@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/LuckyFBB/dt-intl/compare/v1.0.2...v1.0.3) (2025-04-02)
+
+
+### Bug Fixes
+
+* 🐛 remove string[] type for template/get ([577681e](https://github.com/LuckyFBB/dt-intl/commit/577681e3e7a145604c4d2fd357132d039b4d194c))
+
 ### [1.0.2](https://github.com/LuckyFBB/dt-intl/compare/v1.0.1...v1.0.2) (2025-04-02)
 
 
