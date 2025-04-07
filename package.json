@@ -1,6 +1,6 @@
 {
     "name": "dt-intl",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "I18N tools for universal javascript apps, easy use & better api;",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -37,7 +37,7 @@
         "dev": "tsc -w",
         "build": "tsc",
         "prettier": "prettier --write ./",
-        "release": "standard-version"
+        "release": "pnpm build && standard-version"
     },
     "dependencies": {
         "intl-messageformat": "~10.7.15",
